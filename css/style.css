@@ -1,0 +1,646 @@
+/* navbar starts here */
+.navbar-nav li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1.0px;
+    color: #000!important;
+    padding: 5px 7px;
+    -webkit-transition: background 1.2s ease;
+    -moz-transition: background 1.2s ease;
+    -ms-transition: background 1.2s ease;
+    -o-transition: background 1.2s ease;
+    transition: background 1.2s ease;
+
+}
+
+.navbar-nav li {
+    margin-right: 7px;
+
+}
+.navbar-nav li a:hover {
+    background: blue!important;
+    color: #fff!important;
+    border-radius: 4px;
+    /* border: 1px solid blue; */
+}
+
+.navbar-nav .active a {
+    color: blue!important;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+/* navbar ends here */
+
+/* block 1 styling starts here */
+.bk1-display {
+    background: url(../img/thumbnail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.read-bk1 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-bottom: 130px;
+    padding-top: 20px;
+}
+
+.read-bk1 h2 {
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+    padding-top: 300px;
+    padding-bottom: 25px;
+}
+
+.read-bk1 p {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    max-width: 80%;
+    margin: auto;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.mn-bt {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-test {
+    color: #fff!important;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    padding: 12px 20px;
+    background: blue;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-right: 7px;
+}
+
+.btn-test:hover {
+    background: rgb(0, 0, 202);
+    -webkit-transition: background 1.2s ease;
+    -moz-transition: background 1.2s ease;
+    -ms-transition: background 1.2s ease;
+    -o-transition: background 1.2s ease;
+    transition: background 1.2s ease;
+}
+
+.btn-video {
+    color: #fff!important;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    padding: 12px 20px;
+    /* background: blue; */
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.btn-video:hover {
+    /* background: rgb(0, 0, 202); */
+    color: #fff!important;
+    border: 1px solid white;
+    border-radius: 2px;
+    -webkit-transition: border 1.2s ease;
+    -moz-transition: border 1.2s ease;
+    -ms-transition: border 1.2s ease;
+    -o-transition: border 1.2s ease;
+    transition: border 1.2s ease;
+} 
+
+.btn-video .bk1-image {
+    max-width: 20%;
+    padding-right: 5px;
+}
+/* block 1 styling ends here */
+
+/* Block 2 styling starts here */
+.txt-bk2 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.txt-bk2 h2 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #5f5a76;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 30px;
+}
+
+.marker-bk2 {
+    text-align: center;
+}
+
+.marker-bk2 img {
+    /* max-width: 22%; */
+    margin-bottom: 15px;
+}
+
+.marker-bk2 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #5f5a76;
+    padding-bottom: 0px;
+}
+
+.marker-bk2 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    width: 80%;
+    margin: auto;
+    color: #5f5a76;
+    letter-spacing: normal;
+    padding-bottom: 18px;
+}
+
+.space-bk2 {
+    padding-bottom: 60px;
+}
+/* Block 2 styling ends here */
+
+/* Block 3 starts here */
+.main-bk3 {
+    background: url(../img/landing-page-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+
+.white-bk3 {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 12px 1px #e0e0e0;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.white-bk3 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+}
+
+.white-bk3 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+}
+
+.white-bk3 .btn-free {
+    background: transparent!important;
+    color: #2c0fef;
+    font-size: 12px!important;
+    padding: 10px 20px;
+    border-radius: 4px!important;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.white-bk3 .btn-free:hover {
+    color: #fff;
+    background: blue!important;
+    cursor: pointer;
+    -webkit-transition: background 1.2s ease;
+    -moz-transition: background 1.2s ease;
+    -ms-transition: background 1.2s ease;
+    -o-transition: background 1.2s ease;
+    transition: background 1.2s ease;
+
+}
+
+.top-bk3 {
+    margin-top: 60px;
+}
+
+.whity {
+    margin-top: 60px;
+}
+
+.white-bk3 img {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+/* block 3 ends here */
+
+/* block 4 starts here */
+.main-bk4 {
+    background: url(../img/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+
+.txt-bk4 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+}
+
+.txt-bk4 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+    width: 40%;
+    margin: auto;
+
+}
+
+.txt-bk4 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;    
+}
+
+.ft-bk4 {
+    text-align: center;
+}
+
+.ft-bk4 img {
+    padding-bottom: 30px;
+}
+
+.arrow-bk4 {
+     padding-left: 70px;
+    /* padding-right: 50%;\\ */
+    /* float: right; */ */
+    /* text-align: center; */
+}
+
+.arrow2-bk4 {
+    padding-left: 100px;
+}
+
+.arrow1-bk4 {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+/* .test-bk4 img {
+    max-width: 60%;
+} */
+
+.graded-bk4 {
+    max-width: 80%;
+    padding-bottom: 50px;
+}
+
+.marks-bk4 {
+    /* padding-top: 25px; */
+    max-width: 50%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.submit-bk4 {
+    max-width: 50%;
+}
+
+.ft-bk4 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    float: left;
+    padding-top: 0px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+/* block 4 ends here */
+
+/* Block 5 starts here */
+.choose-bk5 img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.choose-bk5 {
+    text-align: center;
+}
+
+.essay-bk5 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 20px;   
+    padding-top: 20px;
+}
+
+.essay-bk5 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    float: left;
+    padding-top: 0px;
+    /* text-align: center; */
+    width: 80%;
+    /* margin: auto; */
+}
+
+.essay-bk5 {
+    padding-top: 60px;
+    padding-left: 60px!important;
+}
+
+.rowlee-bk5 {
+    margin-bottom: 20px;
+}
+
+.span-bk5 {
+    border-top: 3px solid #2c0fef;
+    max-width: 50px;
+}
+
+/* Block 5 ends here */
+
+/* Blocks 6 starts here */
+
+.map-bk6 img {
+    max-width: 100%;
+}
+
+.map-bk6 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.earn-bk6 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 20px;   
+    padding-top: 0px;
+}
+
+.earn-bk6 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    float: left;
+    padding-top: 0px;
+    width: 80%;
+}
+
+.gstart-bk6:hover {
+    color: #fff;
+    background: blue!important;
+    cursor: pointer;
+    -webkit-transition: background 1.2s ease;
+    -moz-transition: background 1.2s ease;
+    -ms-transition: background 1.2s ease;
+    -o-transition: background 1.2s ease;
+    transition: background 1.2s ease;
+}
+
+.gstart-bk6 {
+    background: transparent!important;
+    color: #2c0fef;
+    font-size: 12px!important;
+    padding: 10px 20px;
+    border-radius: 4px!important;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Block 6 ends here */
+
+/* Blocks 7 starts here */
+
+.main-bk7 {
+    background: url(../img/bg-2.png);
+    text-align: center;
+}
+
+.idupe-bk7 {
+    max-width: 50%;
+    margin: auto;
+     box-shadow: 1px 1px 12px 1px #e0e0e0;
+     padding: 35px;
+     border-radius: 20px;
+     background: #fff;
+}
+
+.thanks-bk7 img {
+    max-width: 100%;
+}
+
+.thanks-bk7 h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 20px;   
+    padding-top: 0px;
+}
+
+.thanks-bk7 p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    float: left;
+    padding-top: 0px;
+    /* text-align: center; */
+    width: 80%;
+    /* margin: auto; */
+}
+
+.obi-bk7 {
+    padding-bottom: 0px;
+
+}
+
+.thanks-bk7 .loc-bk7 {
+    color: #2c0fef;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.main-bk7 .hear-bk7 {
+     font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 0px;   
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+
+.main-bk7 .web-bk7 {
+    font-weight: bold;
+    color: #5f5a76;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    /* line-height: 1.8; */
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    /* float: left; */
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.thanks-bk7 .btn-more-bk7 {
+    color: #2c0fef;
+    border: 1px solid blue;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+
+.thanks-bk7 .special-bk7 {
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+.btn-more-bk7:hover {
+    color: #fff;
+    background: blue!important;
+    cursor: pointer;
+    -webkit-transition: background 1.2s ease;
+    -moz-transition: background 1.2s ease;
+    -ms-transition: background 1.2s ease;
+    -o-transition: background 1.2s ease;
+    transition: background 1.2s ease;
+}
+
+.price-feature {
+    background: #fff;
+    padding: 20px 20px;
+}
+
+.price {
+    padding-top: 50px;
+}
+.price-feature h2 {
+    font-family: Roboto, sans-serif;  
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5a76;
+    padding-bottom: 20px;   
+    padding-top: 0px;
+}
+
+.ul-price li{
+    display: block;
+    list-style: none;
+     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #5f5a76;
+    margin-top: 0px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    padding-left: 0px!important;
+}
+
+.ul-price {
+    padding-left: 0px!important;
+}
+
+
+/* Blocks 7 ends here */
